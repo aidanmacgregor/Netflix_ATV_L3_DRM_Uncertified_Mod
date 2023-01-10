@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty" />
+    <string name="app_name">Netflix</string>
+    <string name="label_ok">OK</string>
+    <string name="label_error">Feil</string>
+    <string name="label_drm_cdm_provisioning_failed">Beklager, vi kan ikke koble til Netflix-tjenesten. Sjekk nettverksinnstillinger for å koble til et tilgjengelig nettverk slik at du kan bruke Netflix (%1$d).</string>
+    <string name="label_config_ssl_Error">Kontroller at enheten er tilkoblet et nettverk, og at dato- og tidsinnstillingene er riktige. (%1$d)</string>
+    <string name="label_config_not_permitted">Denne versjonen av Netflix-appen støttes ikke av enheten du bruker (%1$d).</string>
+    <string name="label_config_fetch_failed">Det oppsto et problem ved tilkobling til Netflix. Prøv på nytt senere (%1$d).</string>
+    <string name="label_mediadrm_error">Vi beklager, vi kan ikke koble til Netflix-tjenesten. Prøv å starte Netflix-applikasjonen på nytt (%1$d).</string>
+    <string name="label_error_default">Vi beklager, vi kan ikke koble til Netflix-tjenesten. Prøv på nytt senere. Hvis problemet vedvarer, ber vi deg besøke Netflix-nettstedet (0000).</string>
+    <string name="label_check_ntwk">Enheten din er muligens ikke koblet til Internett. Sørg for at nettilkoblingen din fungerer som den skal og prøv på nytt (%1$d).</string>
+</resources>

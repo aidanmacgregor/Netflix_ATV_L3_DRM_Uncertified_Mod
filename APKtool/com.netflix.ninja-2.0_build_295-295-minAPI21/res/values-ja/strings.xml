@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty" />
+    <string name="app_name">Netflix</string>
+    <string name="label_ok">OK</string>
+    <string name="label_error">エラー</string>
+    <string name="label_drm_cdm_provisioning_failed">申し訳ありません。Netflixのサービスに接続できませんでした。ネットワーク設定を確認のうえ、接続可能なネットワークでNetflixをご利用ください (%1$d)。</string>
+    <string name="label_config_ssl_Error">ご利用のデバイスがネットワークに接続しており、日付の設定が正しいことを確認してください (%1$d)。</string>
+    <string name="label_config_not_permitted">Netflixアプリのバージョンとご利用のデバイスとの互換性がありません (%1$d)。</string>
+    <string name="label_config_fetch_failed">Netflixとの接続中に問題が発生しました。しばらくしてからもう一度お試しください (%1$d)。</string>
+    <string name="label_mediadrm_error">申し訳ありません。Netflixのサービスに接続できません。Netflixのアプリをもう一度起動させてください (%1$d)。</string>
+    <string name="label_error_default">申し訳ありません。Netflixのサービスに接続できません。しばらくしてからもう一度お試しください。この問題が継続している場合は、Netflixのウェブサイトをご覧ください (0000)。</string>
+    <string name="label_check_ntwk">ご利用のデバイスはインターネットに接続していない可能性があります。接続が機能していることを確認してから、もう一度お試しください (%1$d)。</string>
+</resources>

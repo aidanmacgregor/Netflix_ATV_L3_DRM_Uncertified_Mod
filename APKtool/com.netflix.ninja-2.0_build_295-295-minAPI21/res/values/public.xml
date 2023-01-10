@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_banner" id="0x7f020000" />
+    <public type="drawable" name="netflix" id="0x7f020001" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="xml" name="launcher_info" id="0x7f040000" />
+    <public type="raw" name="ca" id="0x7f050000" />
+    <public type="string" name="empty" id="0x7f060000" />
+    <public type="string" name="app_name" id="0x7f060001" />
+    <public type="string" name="label_ok" id="0x7f060002" />
+    <public type="string" name="label_error" id="0x7f060003" />
+    <public type="string" name="label_drm_cdm_provisioning_failed" id="0x7f060004" />
+    <public type="string" name="label_config_ssl_Error" id="0x7f060005" />
+    <public type="string" name="label_config_not_permitted" id="0x7f060006" />
+    <public type="string" name="label_config_fetch_failed" id="0x7f060007" />
+    <public type="string" name="label_mediadrm_error" id="0x7f060008" />
+    <public type="string" name="label_error_default" id="0x7f060009" />
+    <public type="string" name="label_check_ntwk" id="0x7f06000a" />
+    <public type="id" name="gibbonMain" id="0x7f070000" />
+    <public type="id" name="playerContainer" id="0x7f070001" />
+    <public type="id" name="player" id="0x7f070002" />
+    <public type="id" name="gibbon" id="0x7f070003" />
+</resources>

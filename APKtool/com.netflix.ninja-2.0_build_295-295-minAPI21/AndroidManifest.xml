@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.netflix.ninja" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.software.leanback"/>
+    <uses-feature android:name="nrdp.modelgroup" android:required="true"/>
+    <permission android:name="com.netflix.ninja.permission.ESN" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.netflix.ninja.permission.NETFLIX_KEY" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.netflix.ninja.permission.TILES" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.netflix.ninja.permission.ESN"/>
+    <uses-permission android:name="com.netflix.ninja.permission.NETFLIX_KEY"/>
+    <uses-permission android:name="com.netflix.ninja.permission.TILES"/>
+    <application android:allowBackup="false" android:banner="@drawable/ic_banner" android:debuggable="false" android:icon="@drawable/netflix" android:label="@string/app_name" android:logo="@drawable/ic_banner">
+        <activity android:banner="@drawable/ic_banner" android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|touchscreen|uiMode" android:excludeFromRecents="true" android:label="@string/app_name" android:launchMode="singleTop" android:name=".MainActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.cast.action.START"/>
+                <data android:host="Netflix" android:scheme="cast"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="www.netflix.com" android:scheme="nflx"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="isGame" android:value="false"/>
+        <receiver android:exported="true" android:name="com.netflix.ninja.NetflixKeyReceiver" android:permission="com.netflix.ninja.permission.NETFLIX_KEY">
+            <intent-filter>
+                <action android:name="com.netflix.ninja.intent.action.NETFLIX_KEY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.netflix.ninja.EsnInquiryReceiver" android:permission="com.netflix.ninja.permission.ESN">
+            <intent-filter>
+                <action android:name="com.netflix.ninja.intent.action.ESN"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="com.netflix.ninja.NetflixService">
+            <intent-filter>
+                <action android:name="com.netflix.ninja.NetflixService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

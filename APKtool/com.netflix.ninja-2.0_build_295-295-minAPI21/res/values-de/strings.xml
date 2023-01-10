@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty" />
+    <string name="app_name">Netflix</string>
+    <string name="label_ok">OK</string>
+    <string name="label_error">Fehler</string>
+    <string name="label_drm_cdm_provisioning_failed">Der Netflix-Dienst konnte leider nicht erreicht werden. Bitte überprüfen Sie die Netzwerkeinstellungen, um eine Verbindung mit einem verfügbaren Netzwerk herzustellen und Netflix zu verwenden (%1$d).</string>
+    <string name="label_config_ssl_Error">Bitte stellen Sie sicher, dass Ihr Gerät eine Netzwerkverbindung hat und die Datums- und Zeiteinstellungen richtig sind (%1$d).</string>
+    <string name="label_config_not_permitted">Diese Version der Netflix-App ist nicht kompatibel mit Ihrem Gerät (%1$d).</string>
+    <string name="label_config_fetch_failed">Es konnte keine Verbindung zu Netflix hergestellt werden. Bitte versuchen Sie es später noch einmal (%1$d).</string>
+    <string name="label_mediadrm_error">Der Netflix-Dienst konnte leider nicht erreicht werden. Bitte versuchen Sie einen Neustart der Netflix-App (%1$d).</string>
+    <string name="label_error_default">Der Netflix-Dienst konnte leider nicht erreicht werden. Bitte versuchen Sie es später noch einmal. Falls das Problem weiterhin besteht, besuchen Sie bitte die Netflix-Website (0000).</string>
+    <string name="label_check_ntwk">Ihr Gerät ist möglicherweise nicht mit dem Internet verbunden. Stellen Sie sicher, dass Ihre Verbindung funktioniert, und versuchen Sie es noch einmal (%1$d).</string>
+</resources>

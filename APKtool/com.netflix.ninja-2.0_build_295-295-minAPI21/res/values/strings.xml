@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty" />
+    <string name="app_name">Netflix</string>
+    <string name="label_ok">OK</string>
+    <string name="label_error">Error</string>
+    <string name="label_drm_cdm_provisioning_failed">Sorry we could not reach the Netflix service. Please check Network Settings to connect to an available network and use Netflix (%1$d).</string>
+    <string name="label_config_ssl_Error">Please make sure that your device has network connectivity and the Date and Time settings are accurate (%1$d).</string>
+    <string name="label_config_not_permitted">This version of Netflix app is not compatible with your device (%1$d).</string>
+    <string name="label_config_fetch_failed">There is a problem connecting to Netflix. Please try again later (%1$d).</string>
+    <string name="label_mediadrm_error">Sorry we could not reach the Netflix service. Please try to restart the Netflix application (%1$d).</string>
+    <string name="label_error_default">Sorry we could not reach the Netflix service. Please try again later. If the problems persists please visit the Netflix website (0000).</string>
+    <string name="label_check_ntwk">Your device may not be connected to the Internet. Please make sure your connection is working and try again (%1$d).</string>
+</resources>

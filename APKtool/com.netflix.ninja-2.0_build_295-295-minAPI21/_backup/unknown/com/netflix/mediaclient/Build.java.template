@@ -1,0 +1,23 @@
+/*
+ * Build.java
+ *  
+ * Copyright (c) 2014 Netflix, Inc.  All rights reserved.
+ */
+
+package com.netflix.mediaclient;
+
+/**
+ * This interface is update as part of build process. It is created as part of build process from template file
+ * located in same directory: Config.java.template.
+ * 
+ * DO NOT change any value of any property manually!
+ * 
+ * All variables here are set as part of build process.
+ */
+public interface Build {
+
+    /**
+     * true for debug, releaseDebug builds; false for release build.
+     */
+    public static final boolean debug = ###;
+}

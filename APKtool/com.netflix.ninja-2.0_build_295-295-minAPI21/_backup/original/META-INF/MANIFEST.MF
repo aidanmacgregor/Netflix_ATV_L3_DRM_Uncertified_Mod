@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: lib/armeabi/libJavaScriptCore.so
+SHA1-Digest: 40tNkQz+BJCIKF1GjgPhIyED7go=
+
+Name: lib/armeabi/libnetflix.so
+SHA1-Digest: LlGBz2M88YSkeJa4rlWwL/1oskY=
+
+Name: res/drawable/ic_banner.png
+SHA1-Digest: ZNRG7ZIpCJKg6l9SKOv6H1jGo2g=
+
+Name: resources.arsc
+SHA1-Digest: Jp5ntuyMpKMPF/+JmJw6nfgjQjQ=
+
+Name: classes.dex
+SHA1-Digest: WrREH1lC3ypDBdeX6xLAIfGM5qM=
+
+Name: res/xml/launcher_info.xml
+SHA1-Digest: uhI93/de2NMOTt8ydKJ1XbLvn0I=
+
+Name: res/layout/main.xml
+SHA1-Digest: 8QMASvWOk2CkIC/I6anymgurO2Q=
+
+Name: AndroidManifest.xml
+SHA1-Digest: qWzUqbBsz+uQtwGEyX74+TUscG0=
+
+Name: res/raw/ca.bks
+SHA1-Digest: Yywt8ETx13brvZNesdXrARMCi3s=
+
+Name: res/drawable/netflix.png
+SHA1-Digest: 0NxXpHEdy+BV2Z2jOFuFFJuqenw=
+
+Name: com/netflix/mediaclient/Build.java.template
+SHA1-Digest: LIrCLcLVYHro/xJ0+QguSoacHSk=
+
+Name: lib/armeabi/libgnustl_shared.so
+SHA1-Digest: SYNNLboCieVLU8uPsyprS3qcLa4=
+
+Name: lib/armeabi/libWTF.so
+SHA1-Digest: pEHqz1spK9IbXXnqhuF8UXW3pbI=
+

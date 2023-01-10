@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.netflix.ninja-2.0_build_295-295-minAPI21.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  com/netflix/mediaclient/Build.java.template: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.1-dirty-20201211
+versionInfo:
+  versionCode: '295'
+  versionName: 2.0 build 295

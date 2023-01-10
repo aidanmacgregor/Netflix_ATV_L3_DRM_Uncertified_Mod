@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty" />
+    <string name="app_name">Netflix</string>
+    <string name="label_ok">OK</string>
+    <string name="label_error">Fout</string>
+    <string name="label_drm_cdm_provisioning_failed">We kunnen geen verbinding maken met de Netflix-service. Controleer de netwerkinstellingen om verbinding te maken met een beschikbaar netwerk en Netflix te gebruiken (%1$d).</string>
+    <string name="label_config_ssl_Error">Zorg dat je apparaat een netwerkverbinding heeft en dat de datum en tijd correct zijn ingesteld (%1$d).</string>
+    <string name="label_config_not_permitted">Deze versie van de Netflix-app is niet compatibel met je apparaat (%1$d).</string>
+    <string name="label_config_fetch_failed">Er is een probleem opgetreden bij het maken van een verbinding met Netflix. Probeer het later opnieuw (%1$d).</string>
+    <string name="label_mediadrm_error">We konden geen verbinding maken met de Netflix-service. Probeer de Netflix-app opnieuw te starten (%1$d).</string>
+    <string name="label_error_default">We kunnen de Netflix-service niet bereiken. Probeer het later opnieuw. Als het probleem zich blijft voordoen, ga dan naar de website van Netflix (0000).</string>
+    <string name="label_check_ntwk">Het apparaat heeft mogelijk geen verbinding met internet. Controleer of de verbinding werkt en probeer opnieuw. (%1$d).</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty" />
+    <string name="app_name">Netflix</string>
+    <string name="label_ok">OK</string>
+    <string name="label_error">Virhe</string>
+    <string name="label_drm_cdm_provisioning_failed">Netflixiin ei valitettavasti saatu yhteyttä. Tarkista Verkkoasetukset yhdistääksesi saatavilla olevaan verkkoon ja käyttääksesi Netflixiä (%1$d).</string>
+    <string name="label_config_ssl_Error">Varmista, että laitteellasi on verkkoyhteys ja päivämäärä- ja aika-asetukset ovat oikein (%1$d).</string>
+    <string name="label_config_not_permitted">Tämä Netflix-sovellus ei ole yhteensopiva laitteesi kanssa (%1$d).</string>
+    <string name="label_config_fetch_failed">Netflixiin yhdistämisessä on ongelma. Yritä myöhemmin uudelleen (%1$d).</string>
+    <string name="label_mediadrm_error">Netflixiin ei valitettavasti saatu yhteyttä. Yritä käynnistää Netflix-sovellus uudelleen (%1$d).</string>
+    <string name="label_error_default">Valitettavasti yhteyttä Netflix-palveluun ei saatu. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, katso ohjeita Netflixin verkkosivuilta (0000).</string>
+    <string name="label_check_ntwk">Laitteesi ei ehkä ole internetyhteydessä. Tarkista yhteys ja yritä uudelleen (%1$d).</string>
+</resources>

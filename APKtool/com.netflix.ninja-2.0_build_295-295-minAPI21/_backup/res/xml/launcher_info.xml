@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launcher version="1">
+    <root-uri>content://com.netflix.ninja/launcher</root-uri>
+    <app-cluster-image>@drawable/square</app-cluster-image>
+    <color-hint>#3583f2</color-hint>
+</launcher>
