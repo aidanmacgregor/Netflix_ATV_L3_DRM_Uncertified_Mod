@@ -634,6 +634,12 @@
 
     invoke-direct {v2, v3}, Landroid/media/MediaDrm;-><init>(Ljava/util/UUID;)V
 
+    const-string v3, "securityLevel"
+
+    const-string v4, "L3"
+
+    invoke-virtual {v2, v3, v4}, Landroid/media/MediaDrm;->setPropertyString(Ljava/lang/String;Ljava/lang/String;)V
+
     iput-object v2, p0, Lcom/netflix/mediaclient/service/configuration/drm/WidevineMediaDrmEngine;->mDrm:Landroid/media/MediaDrm;
 
     .line 135
@@ -1525,7 +1531,7 @@
 .end method
 
 .method private getTempMediaDrm()Landroid/media/MediaDrm;
-    .locals 4
+    .locals 5
 
     .prologue
     .line 405
@@ -1546,6 +1552,12 @@
     invoke-virtual {p0}, Lcom/netflix/mediaclient/service/configuration/drm/WidevineMediaDrmEngine;->hasHiddenSecureStopApis()Z
 
     move-result v2
+
+    const-string v3, "securityLevel"
+
+    const-string v4, "L3"
+
+    invoke-virtual {v1, v3, v4}, Landroid/media/MediaDrm;->setPropertyString(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v2, :cond_0
 

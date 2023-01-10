@@ -1056,6 +1056,141 @@
 
 
 # virtual methods
+.method public CheckSystemFileExist(Ljava/lang/String;)Z
+    .locals 4
+    .param p1, "path"    # Ljava/lang/String;
+
+    .line 329
+    const/4 v0, 0x0
+
+    .line 330
+    .local v0, "result":Z
+    new-instance v1, Ljava/io/File;
+
+    invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    .line 331
+    .local v1, "fr_File":Ljava/io/File;
+    invoke-virtual {v1}, Ljava/io/File;->exists()Z
+
+    move-result v2
+
+    const/4 v3, 0x1
+
+    if-ne v2, v3, :cond_0
+
+    .line 333
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "CheckSystemFileExist() path is exist, path="
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "BaseEsnProvider"
+
+    invoke-static {v3, v2}, Lcom/netflix/mediaclient/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 334
+    const/4 v0, 0x1
+
+    .line 336
+    :cond_0
+    return v0
+.end method
+
+.method public CheckSystemIsVideoStrong()Z
+    .locals 8
+
+    .line 307
+    const/4 v0, 0x0
+
+    .line 308
+    .local v0, "result":Z
+    const-string v1, "/sys/devices/aml_pm/led_test"
+
+    const-string v2, "/sys/devices/platform/aml_pm_m8/led_test"
+
+    const-string v3, "/sys/module/gxbb_pm/parameters/wifi_type"
+
+    const-string v4, "/sys/class/ledpwm"
+
+    const-string v5, "/sys/class/ledind"
+
+    const-string v6, "/sdcard/netflix.vs_device"
+
+    const-string v7, "/sys/class/vscustom/name"
+
+    filled-new-array/range {v1 .. v7}, [Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 314
+    .local v1, "PathArray":[Ljava/lang/String;
+    const/4 v2, 0x0
+
+    .local v2, "i":I
+    :goto_0
+    array-length v3, v1
+
+    if-ge v2, v3, :cond_1
+
+    .line 316
+    aget-object v3, v1, v2
+
+    invoke-virtual {p0, v3}, Lcom/netflix/mediaclient/service/configuration/esn/BaseEsnProvider;->CheckSystemFileExist(Ljava/lang/String;)Z
+
+    move-result v3
+
+    const/4 v4, 0x1
+
+    if-ne v3, v4, :cond_0
+
+    .line 318
+    const/4 v0, 0x1
+
+    .line 319
+    goto :goto_1
+
+    .line 314
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    .line 323
+    .end local v2    # "i":I
+    :cond_1
+    :goto_1
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "CheckSystemIsVideoStrong() result="
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "BaseEsnProvider"
+
+    invoke-static {v3, v2}, Lcom/netflix/mediaclient/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 324
+    return v0
+.end method
+
 .method protected findBaseModelId()Ljava/lang/String;
     .locals 8
 
@@ -1733,12 +1868,23 @@
 .end method
 
 .method public getEsn()Ljava/lang/String;
-    .locals 1
+    .locals 2
 
     .prologue
     .line 306
     iget-object v0, p0, Lcom/netflix/mediaclient/service/configuration/esn/BaseEsnProvider;->esn:Ljava/lang/String;
 
+    invoke-virtual {p0}, Lcom/netflix/mediaclient/service/configuration/esn/BaseEsnProvider;->CheckSystemIsVideoStrong()Z
+
+    move-result v1
+
+    const/4 v1, 0x1
+
+    if-eqz v1, :cond_0
+
+    const-string v0, "NFANDROID1-PRV-T-L3-SDMC=MBX4K=RANGER-9908-"
+
+    :cond_0
     return-object v0
 .end method
 

@@ -179,6 +179,12 @@
 
     invoke-direct {v0, v1}, Landroid/media/MediaDrm;-><init>(Ljava/util/UUID;)V
 
+    const-string v1, "securityLevel"
+
+    const-string v2, "L3"
+
+    invoke-virtual {v0, v1, v2}, Landroid/media/MediaDrm;->setPropertyString(Ljava/lang/String;Ljava/lang/String;)V
+
     iput-object v0, p0, Lcom/netflix/mediaclient/service/configuration/drm/MSLWidevineDrmManager;->mDrm:Landroid/media/MediaDrm;
 
     .line 114

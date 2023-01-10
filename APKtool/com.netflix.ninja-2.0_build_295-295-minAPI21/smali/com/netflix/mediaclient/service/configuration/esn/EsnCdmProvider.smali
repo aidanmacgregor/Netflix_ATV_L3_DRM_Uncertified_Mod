@@ -52,6 +52,12 @@
 
     move-result-object v1
 
+    const-string v3, "securityLevel"
+
+    const-string v4, "L3"
+
+    invoke-virtual {v0, v3, v4}, Landroid/media/MediaDrm;->setPropertyString(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 44
     .local v1, "modelGroup":Ljava/lang/String;
     invoke-static {v0}, Lcom/netflix/mediaclient/service/configuration/drm/MSLWidevineDrmManager;->getDeviceId(Landroid/media/MediaDrm;)[B
