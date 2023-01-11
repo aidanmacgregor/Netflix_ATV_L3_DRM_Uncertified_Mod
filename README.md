@@ -17,30 +17,31 @@ ESN History
 (January 2023 - CURRENT)
 
 Import The contents Of The "APKtool" Folder Into The "_INPUT_APK" Folder & Add Your ESN into "BaseEsnProvider.smali"
+
 (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
 
+### Pictures
 Custom ROM With Only Widevine L3:
-![1](https://user-images.githubusercontent.com/11254983/211714336-c988d012-4a6e-4964-bdb3-4844707162ca.png)
+![1](https://user-images.githubusercontent.com/11254983/211722379-8352ca30-fefb-4cc1-9a78-8597bfc5efe5.png)
 
 Before Sign In:
-![2](https://user-images.githubusercontent.com/11254983/211714369-7778c7b6-3b81-4256-9a06-da3e54968e31.jpg)
+![2](https://user-images.githubusercontent.com/11254983/211722405-c51b1b94-7fcf-45eb-853d-56c9252e8d7b.png)
+
+Sign In:
+![3](https://user-images.githubusercontent.com/11254983/211722451-c4e464c4-618b-4bcf-b14f-05972171bfa5.png)
 
 Profile Select:
-![3](https://user-images.githubusercontent.com/11254983/211714407-ca4bf3ff-da02-4c93-9871-8b1799851b22.jpg)
+![4](https://user-images.githubusercontent.com/11254983/211722472-118b476c-9021-4d15-bd38-3c5d166aed70.png)
 
-Home Screen:
-![4](https://user-images.githubusercontent.com/11254983/211714459-1b9ff79c-1c74-4d16-8cbd-75c453dc1fd4.jpg)
+Home:
+![5](https://user-images.githubusercontent.com/11254983/211722556-84a33dc6-92d9-4c6e-8617-b2daa1085d64.png)
 
 Media Info:
-![5](https://user-images.githubusercontent.com/11254983/211714486-28460a71-e9e9-4e0c-86a3-d1903c160fe7.jpg)
+![6](https://user-images.githubusercontent.com/11254983/211722582-17ec08b0-1938-4f19-a56f-853175eae3ed.png)
 
-Playback 1:
-![6](https://user-images.githubusercontent.com/11254983/211714515-97100bb5-5397-474f-8879-7bb41e1f2cb2.jpg)
-
-Playback 2:
-![7](https://user-images.githubusercontent.com/11254983/211714539-b3bbd46e-c4e9-43b0-9126-fd5c7ffbef84.jpg)
+Playback:
+![7](https://user-images.githubusercontent.com/11254983/211722635-eeb2513e-b55f-4a57-b998-5a112a68c37e.jpg)
 
 About:
-![8](https://user-images.githubusercontent.com/11254983/211714928-668d5969-78e4-4540-b961-c56fb0cd2e4c.png)
-
+![8](https://user-images.githubusercontent.com/11254983/211722957-e860dc83-86df-4777-a01e-d48c7466b0b4.png)
 
