@@ -1,8 +1,8 @@
-# aidanmacgregor-Netflix_ATV_L3_DRM_Uncertified_Mod
+Netflix_ATV_L3_DRM_Uncertified_Mod
 Modified Android TV Netflix Apk To Work On Uncertified And Widevine L3 Devices (Including Custom Roms)
 
 Mods:
-1. Icon for NON Tv Launcher Added
+1. Icon for NON TV Launcher Added
 2. Patched APK to Enable Playback NON Netflix Certified Devices
 3. Patched APK To Play on Widevine L3 DRM Devices
 4. Added An Embedded ESN (Add Your Own ESN, Example Is Blocked)
