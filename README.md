@@ -45,3 +45,5 @@ Playback:
 About:
 ![8](https://user-images.githubusercontent.com/11254983/211722957-e860dc83-86df-4777-a01e-d48c7466b0b4.png)
 
+Changes Over Unmodified Netflix APK:
+https://github.com/aidanmacgregor/Netflix_ATV_L3_DRM_Uncertified_Mod/commit/6e62063186d3be955962384509a605e39a46f2f0
