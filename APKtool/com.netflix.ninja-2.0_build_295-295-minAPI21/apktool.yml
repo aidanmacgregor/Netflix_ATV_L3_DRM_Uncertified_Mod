@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: com.netflix.ninja-2.0_build_295-295-minAPI21.apk
+apkFileName: com.netflix.ninja-2.0_build_295-295-minAPI23.apk
 compressionType: false
 doNotCompress:
 - AndroidManifest.xml
