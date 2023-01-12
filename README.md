@@ -7,6 +7,7 @@ Mods:
 2. Patched APK to Enable Playback NON Netflix Certified Devices
 3. Patched APK To Play on Widevine L3 DRM Devices
 4. Added An Embedded ESN (Add Your Own ESN, Example Is Blocked)
+5. Made Minimum API 23 (Android 6.0+) To Remove "This App Was Built For An Older Version Of Android Pop-Up (v2)
 
 ESN History
 1. NFANDROID1-PRV-T-L3-SDMC=MBX4K=RANGER-9908-
