@@ -2,6 +2,7 @@
 apkFileName: com.netflix.ninja-2.0_build_295-295-minAPI21.apk
 compressionType: false
 doNotCompress:
+- AndroidManifest.xml
 - resources.arsc
 - png
 isFrameworkApk: false
@@ -9,7 +10,7 @@ packageInfo:
   forcedPackageId: '127'
   renameManifestPackage: null
 sdkInfo:
-  minSdkVersion: '21'
+  minSdkVersion: '23'
 sharedLibrary: false
 sparseResources: true
 unknownFiles:
