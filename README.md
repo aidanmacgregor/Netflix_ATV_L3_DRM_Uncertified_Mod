@@ -17,6 +17,10 @@ ESN History
 3. [CURRENTLY ACTIVE]
 (January 2023 - CURRENT)
 
+### Download APK
+https://www.androidfilehost.com/?w=files&flid=329316
+
+### Confirm & Manually check Mod (or use your own ESN)
 Import The contents Of The "APKtool" Folder Into The "_INPUT_APK" Folder & Add Your ESN into "BaseEsnProvider.smali"
 
 (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
