@@ -21,6 +21,9 @@ Import The contents Of The "APKtool" Folder Into The "_INPUT_APK" Folder & Add Y
 
 (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ir3SWhDPqwE/0.jpg)](https://www.youtube.com/watch?v=ir3SWhDPqwE)
+
+
 ### Pictures
 Custom ROM With Only Widevine L3:
 ![1](https://user-images.githubusercontent.com/11254983/211722379-8352ca30-fefb-4cc1-9a78-8597bfc5efe5.png)
