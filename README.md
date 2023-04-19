@@ -20,8 +20,8 @@ ESN History
 ### Download APK
 https://www.androidfilehost.com/?w=files&flid=329316
 
-### Confirm & Manually check Mod (or use your own ESN)
-Import The contents Of The "APKtool" Folder Into The "_INPUT_APK" Folder & Add Your ESN into "BaseEsnProvider.smali"
+### Confirm & Manually check mod
+Download ApkBatchTool,Then download the source .zip & copy The contents Of The "APKtool" Folder Into The "_INPUT_APK" folder of ApkBatchTool, The ESN is located in the "BaseEsnProvider.smali" file
 
 (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
 
