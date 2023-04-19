@@ -21,9 +21,10 @@ ESN History
 https://www.androidfilehost.com/?w=files&flid=329316
 
 ### Confirm & Manually check mod
-Download ApkBatchTool,Then download the source .zip & copy The contents Of The "APKtool" Folder Into The "_INPUT_APK" folder of ApkBatchTool, The ESN is located in the "BaseEsnProvider.smali" file
+Download ApkBatchTool, Then download the source .zip & copy The contents Of The "APKtool" Folder Into The "_INPUT_APK" folder of ApkBatchTool, When finnished recomile the apk using command "3"
 
-(Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
+The ESN is located in the "BaseEsnProvider.smali" file (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
+
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ir3SWhDPqwE/0.jpg)](https://www.youtube.com/watch?v=ir3SWhDPqwE)
 
