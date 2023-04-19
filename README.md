@@ -1,4 +1,4 @@
-### Netflix_ATV_L3_DRM_Uncertified_Mod
+# Netflix_ATV_L3_DRM_Uncertified_Mod
 
 Modified Android TV Netflix Apk To Work On Uncertified And Widevine L3 Devices (Including Custom Roms)
 
@@ -17,14 +17,15 @@ ESN History
 3. [CURRENTLY ACTIVE]
 (January 2023 - CURRENT)
 
-### Download APK
+# Download APK
 https://www.androidfilehost.com/?w=files&flid=329316
 
-### Confirm & Manually check mod
+## Confirm & Manually check mod
 Download ApkBatchTool, Then download the source .zip & copy The contents Of The "APKtool" Folder Into The "_INPUT_APK" folder of ApkBatchTool, When finnished recomile the apk using command "3"
 
 The ESN is located in the "BaseEsnProvider.smali" file (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
 
+You could add your own ESN at this stage if you have a working one
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ir3SWhDPqwE/0.jpg)](https://www.youtube.com/watch?v=ir3SWhDPqwE)
 
