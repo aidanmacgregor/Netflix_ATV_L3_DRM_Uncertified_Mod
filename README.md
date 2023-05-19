@@ -2,6 +2,8 @@
 
 Modified Android TV Netflix Apk To Work On Uncertified And Widevine L3 Devices (Including Custom Roms)
 
+Known Issues - Android 12+ Internet connectivity issue
+
 Mods:
 1. Icon for NON TV Launcher Added
 2. Patched APK to Enable Playback NON Netflix Certified Devices
