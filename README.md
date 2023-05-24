@@ -33,6 +33,8 @@ https://www.androidfilehost.com/?w=files&flid=329316
 1. Android 12+ (Internet connectivity issue)
 
 ## Confirm & Manually check mod (Optional)
+[[  THIS IS NOT NESICERRY!  ]]]
+
 Download ApkBatchTool, Then download the source .zip & copy The contents Of The "APKtool" Folder Into The "_INPUT_APK" folder of ApkBatchTool, When finnished recomile the apk using command "3"
 
 The ESN is located in the "BaseEsnProvider.smali" file (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
@@ -43,23 +45,23 @@ You could add your own ESN at this stage if you have a working one
 Custom ROM With Only Widevine L3:
 ![1](https://user-images.githubusercontent.com/11254983/211722379-8352ca30-fefb-4cc1-9a78-8597bfc5efe5.png)
 
-Before Sign In:
+### Before Sign In:
 ![2](https://user-images.githubusercontent.com/11254983/211722405-c51b1b94-7fcf-45eb-853d-56c9252e8d7b.png)
 
-Sign In:
+### Sign In:
 ![3](https://user-images.githubusercontent.com/11254983/211722451-c4e464c4-618b-4bcf-b14f-05972171bfa5.png)
 
-Profile Select:
+### Profile Select:
 ![4](https://user-images.githubusercontent.com/11254983/211722472-118b476c-9021-4d15-bd38-3c5d166aed70.png)
 
-Home:
+### Home:
 ![5](https://user-images.githubusercontent.com/11254983/211722556-84a33dc6-92d9-4c6e-8617-b2daa1085d64.png)
 
-Media Info:
+### Info:
 ![6](https://user-images.githubusercontent.com/11254983/211722582-17ec08b0-1938-4f19-a56f-853175eae3ed.png)
 
-Playback:
+### Playback:
 ![7](https://user-images.githubusercontent.com/11254983/211722635-eeb2513e-b55f-4a57-b998-5a112a68c37e.jpg)
 
-About:
+### About:
 ![8](https://user-images.githubusercontent.com/11254983/211722957-e860dc83-86df-4777-a01e-d48c7466b0b4.png)
