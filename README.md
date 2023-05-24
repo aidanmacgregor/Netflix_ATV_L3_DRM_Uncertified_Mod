@@ -42,7 +42,8 @@ The ESN is located in the "BaseEsnProvider.smali" file (Line 1885, Located: smal
 You could add your own ESN at this stage if you have a working one
 
 ## Pictures
-Custom ROM With Only Widevine L3:
+
+### Custom ROM With Only Widevine L3:
 ![1](https://user-images.githubusercontent.com/11254983/211722379-8352ca30-fefb-4cc1-9a78-8597bfc5efe5.png)
 
 ### Before Sign In:
