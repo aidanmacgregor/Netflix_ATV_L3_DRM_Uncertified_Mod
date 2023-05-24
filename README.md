@@ -23,17 +23,20 @@ ESN History
 # Download APK
 https://www.androidfilehost.com/?w=files&flid=329316
 
-## Confirm & Manually check mod
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+
+## Confirm & Manually check mod (Optional)
 Download ApkBatchTool, Then download the source .zip & copy The contents Of The "APKtool" Folder Into The "_INPUT_APK" folder of ApkBatchTool, When finnished recomile the apk using command "3"
 
 The ESN is located in the "BaseEsnProvider.smali" file (Line 1885, Located: smali\com\netflix\mediaclient\service\configuration\esn\BaseEsnProvider.smali)
 
 You could add your own ESN at this stage if you have a working one
 
+# YouTube Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ir3SWhDPqwE/0.jpg)](https://www.youtube.com/watch?v=ir3SWhDPqwE)
 
 
-### Pictures
+# Pictures
 Custom ROM With Only Widevine L3:
 ![1](https://user-images.githubusercontent.com/11254983/211722379-8352ca30-fefb-4cc1-9a78-8597bfc5efe5.png)
 
